@@ -465,7 +465,27 @@ iframe {
   border-radius: 32px;
 }
 .contact-input {
+  padding: 18px 33px;
+  flex-shrink: 0;
+  font-size: 13px;
+  line-height: 1.15;
+  width: 100%;
+  border: 1px solid var(--color-grey);
+  border-radius: 32px;
+  color: var(--color-light);
+  background-color: transparent;
+  font-size: 16px;
   margin-bottom: 16px;
+}
+.contact-input:focus {
+  background-color: var(--color-grey);
+  outline: none;
+}
+.contact-input::placeholder {
+  color: var(--color-light);
+}
+.contact-input:focus::placeholder {
+  color: var(--color-light);
 }
 .contact-text {
   color: var(--color-light);
@@ -665,7 +685,7 @@ iframe {
   font-weight: 600;
   line-height: 1.17;
   max-width: 274px;
-  margin: 0 auto 10.4px;
+  margin: 0 auto 32px;
   text-align: center;
 }
 .modal-text .highlight-blue {
@@ -691,6 +711,7 @@ iframe {
   color: var(--color-light);
   background-color: transparent;
   font-size: 16px;
+  margin-bottom: 24px;
 }
 .form-input:focus {
   background-color: var(--color-grey);
