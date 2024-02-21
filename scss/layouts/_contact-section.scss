@@ -1,0 +1,24 @@
+.interactive-section {
+  padding-top: 97px;
+  padding-bottom: 96px;
+}
+.interactive-container {
+  display: flex;
+  gap: 32px;
+}
+iframe {
+  flex-shrink: 0;
+  border-radius: 16px;
+  border: none;
+}
+.contact-section-text {
+  color: var(--color-brand-dark);
+}
+.small-text-data-policy {
+  color: var(--color-primary-dark);
+  font-size: 12px;
+}
+.contact-title {
+  margin-bottom: 16px;
+  font-size: 63px;
+}

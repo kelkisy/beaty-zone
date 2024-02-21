@@ -1,0 +1,36 @@
+.chefs-section {
+  padding-top: 96px;
+  &__title {
+    min-width: 520px;
+    margin-bottom: 80px;
+    text-align: center;
+    position: relative;
+    &::before,
+    &::after {
+      position: absolute;
+      width: 352px;
+      height: 2px;
+      background-color: var(--color-gray);
+      content: '';
+    }
+    &::before {
+      left: 0;
+    }
+    &::after {
+      right: 0;
+    }
+  }
+  &__list {
+    display: flex;
+    gap: 50px 30px;
+    padding-left: 16px;
+    flex-wrap: wrap;
+  }
+  &__item {
+    flex-basis: calc((100% - 46px) / 2);
+  }
+}
+
+.vlad-chef .uppercase {
+  text-transform: uppercase;
+}

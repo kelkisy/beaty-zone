@@ -1,0 +1,11 @@
+.section {
+  &__title {
+    &--centered {
+      align-items: center;
+    }
+    color: var(--color-primary-dark);
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 1.3;
+  }
+}
